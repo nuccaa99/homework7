@@ -83,3 +83,45 @@ ul {
     box-shadow: 0px 4px 4px 0px #372D23;
     margin-top: 32px;
 }
+
+/* section2 */
+
+.cards_section {
+    margin-block: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.card {
+    width: 400px;
+    height: 320px;
+    position: relative;
+}
+
+.card_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_content {
+    background: rgba(55, 45, 35, 0.80);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 28px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.card_text {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
